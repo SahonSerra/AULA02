@@ -1,7 +1,7 @@
 import styles from './Pessoa.module.css'
 import loboguara from '../img/loboguara.jpeg'
 
-function Pessoa ({nome, idade, livro,jogo, foto }){
+function Pessoa ({nome, idade, livro, jogo, ano, bebida, cor, filme, musica, frase }){
 
     return(
 
@@ -12,6 +12,13 @@ function Pessoa ({nome, idade, livro,jogo, foto }){
             <p>Idade:{idade}</p>
             <p>Livro Favorito:{livro}</p>
             <p>Jogo favorito:{jogo}</p>
+            <p>ano de Nascimento:{ano}</p>
+            <p>bebida:{bebida}</p>
+            <p>Cor favorita:{cor}</p>
+            <p>Filme:{filme}</p>
+            <p>Musica:{musica}</p>
+            <p>frase favorita:{frase}</p>
+
 
             <img src={loboguara} alt='lobo-guara'/>
 

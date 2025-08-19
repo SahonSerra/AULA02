@@ -24,6 +24,15 @@ function App() {
       idade=' - - -'
       livro=' Vinte mil léguas submarinas'
       jogo=' Kingdom hearts Saga'
+      ano='1989'
+      bebida='cafe'
+      cor=' azul palido'
+      filme=' Forest Gump '
+      musica=' HOME - hold '
+      frase=' ad astra per astra'
+
+     
+    
       
       />
       
